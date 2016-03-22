@@ -1,0 +1,152 @@
+/*
+Project: Personal Website
+Description: This is my personal site project,
+ it will be posted on github using gh-pages
+color theme:
+ - Primary color:#A33643 red
+ - Secondary color:#3C3176 blue
+ - Complament color:#EAE400 yellow
+ - Base color:#333 graay
+*/
+
+/*Global Styles*/
+body, html{
+  mardin: 0;
+  padding: 0;
+  color: #333;
+
+}
+ul {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.border{
+  border-bottom: 2px solid white;
+  padding: 20px 0px;
+}
+/*header styles*/
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #A33643;
+  color: #333;
+}
+header a{
+  height: 100px;
+  color: #111;
+}
+.logo{
+  margin-top: 30px;
+  width: 30%;
+  float: left;
+}
+.logo h1{
+  text-align: center;
+  margin: 0;
+}
+.menu{
+  margin-top: 25px;
+  width: 30px;
+  float: left;
+
+}
+.menu li {
+  float: left;
+}
+.menu li:after{
+  padding-right: 7px;
+  content: " | ";
+}
+.sm-icons{
+  width: 30%;
+  float: right;
+  margin-top: 40px;
+}
+.sm-icons a{
+  padding-right:7px;
+}
+/*Banner styles*/
+#banner{
+  height: 300px;
+  width: 100%;
+  background: url("../img/Football.jpg");
+  background-size: cover;
+  color: #fff
+}
+#banner h1{
+  text-align: center;
+  margin:0;
+  font-size: 3em;
+}
+/*skils id*/
+
+#skills{
+  background-color: #333;
+  height: 1005;
+}
+#skills .box{
+  background-color: #3C3176;
+  height: 100%;
+  width: 25%;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 30px 2% 10px 2%;
+  padding: 15px 20px;
+}
+
+.skills-icon{
+  height: 50px;
+  width: 50px;
+  margin: 50px auto;
+  border-radius: 2px solid #fff;
+  background-color:#
+}
+.skills-icon i{
+  font-size: 2em;
+  color: #fff
+  margin:9px 11px;
+}
+.skills-info h2{
+  text-align: center;
+  margin-top: 10px;
+}
+.skills-info p{
+    text-align: justify;
+    line-height: 20px;
+}
+/*about tab*/
+#about{
+  height: 400px;
+  width: 100%;
+  background-color: #EAE400;
+}
+
+#about h1{
+  text-align: center;
+}
+about-info{
+    border: 2px dotted #333;
+}
+.about-pic{
+  background: url("../img/Music.jpg");
+  height: 300px;
+  width: 25%;
+  float: left;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 100%;
+}
+.about-info{
+  float: right;
+  border: 2px dotted #333;
+  width: 60%;
+}
