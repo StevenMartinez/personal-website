@@ -108,7 +108,6 @@ header a{
   width: 50px;
   margin: 50px auto;
   border-radius: 2px solid #fff;
-  background-color:#
 }
 .skills-icon i{
   font-size: 2em;
@@ -150,4 +149,87 @@ about-info{
   border: 2px dotted #333;
   width: 60%;
 }
+footer{
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  height: 75px;
+  font-size: 40px;
+  height: 100%;
+}
+.footer-icons{
+  padding-top: 25px;
+}
+footer p{
+  font-size: 20px;
+}
+
 /*gh pages*/
+
+
+
+
+/*about*/
+#video-sec{
+  background-color: #bbb;
+  height: 650px;
+  width: 100%;
+
+}
+.video-box{
+  background-color: #333;
+  margin: 0px auto;
+  height: 500px;
+  width: 100%;
+}
+#video-sec iframe{
+  width:100%;
+  height: 600px;
+}
+#about-page{
+  height: 100%;
+  width: 100%;
+  background-color: #004304;
+  color: #000;
+  font-size: 17px;
+}
+.text-box{
+  text-align: left;
+  width: 50%;
+}
+/*contact*/
+#map-sec{
+  width: 100%;
+  height: 600px;
+  background-color: #333;
+}
+.map-box{
+  width: 100%;
+  height: 600px;
+}
+#map-sec iframe{
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#contact{
+  height: 600px;
+  width: 100%;
+  background-color: #3C3176;
+  color: #fff;
+}
+.contact-content{
+
+}
+#contact h1{
+  text-align: center;
+  font-size: 3em;
+}
+.form-box{
+width: 75%;
+float: left;
+padding: 0px;
+}
+form{
+  display: block;
+}
